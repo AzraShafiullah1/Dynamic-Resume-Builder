@@ -1,0 +1,91 @@
+/* styles.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7f6;
+    color: #df131a;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #ebab5d74;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(237, 82, 180, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #0ba09b;
+    margin-bottom: 20px;
+}
+
+fieldset {
+    border: 2px solid #063978;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+legend {
+    font-size: 1.5em;
+    color: #8c0a8c;
+}
+
+label {
+    display: block;
+    margin: 8px 0 4px;
+}
+
+input[type="text"], input[type="email"], input[type="tel"], textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+button {
+    padding: 15px 20px;
+    background-color: #8a930a;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: #db1191;
+}
+h2 {
+    color: #750b73;
+}
+#personalInfo, #educationInfo, #workExperienceInfo, #skillsInfo {
+    margin-bottom: 20px;
+}
+h3 {
+    color: #dff02d;
+}
+/* Resume Preview */
+    /* Container holding the Resume Preview */
+#resumePreview{
+    background-color: #fff86c;  /* White background */
+    border: 2px solid #eb1010; /* Light grey border */
+    border-radius: 10px;        /* Rounded corners */
+    box-shadow: 0px 4px 12px rgba(26, 6, 180, 0.1); /* Soft shadow */
+    padding: 30px;
+    max-width: 900px;           /* Maximum width */
+    margin: 0 auto;             /* Center it horizontally */
+    margin-top: 40px;           /* Margin top to separate from form */
+    color:black;
+    background-color: rgb(255, 112, 80);
+}
+
